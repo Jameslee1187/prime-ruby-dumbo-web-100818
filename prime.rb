@@ -3,7 +3,7 @@ def prime?(num)
     return "false"
   end
   (2...num).each do |ele|
-    
+    if num
     
     
     # Add  code here!
