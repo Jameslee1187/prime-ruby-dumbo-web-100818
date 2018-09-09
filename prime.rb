@@ -1,4 +1,4 @@
-def prim?(num)
+def prime?(num)
   if num < 2
     return "false"
   end
