@@ -1,9 +1,11 @@
 def prime?(num)
   if num < 2
-    return "false"
+    return false
   end
   (2...num).each do |ele|
-    if num
+    if num % ele == 0
+      return false
+      
     
     
     # Add  code here!
